@@ -8,23 +8,23 @@ print("Your mission is to find and destroy the Minotaurus.")
 print("Good luck! You _WILL_ need it.")
 
 # TODO: fix the input so that it is case insensitive. I think I can use the .lower() function to do this.
-choice = input("You are at the entrance of the labyrinth. Type 'ENTER' to continue.")
-if choice == "ENTER" or choice == "Enter" or choice == "enter":
-    choice = input("As you enter the labyrinth, you see a fork in the path. You see blood and entrails on the path leading to the right. Type 'LEFT' or 'RIGHT' to continue.")
-    if choice == "LEFT" or choice == "Left" or choice == "left":
-        choice = input("You walk down the left path and see a door. Type 'OPEN' to continue.")
-        if choice == "OPEN" or choice == "Open" or choice == "open":
+choice = input("You are at the entrance of the labyrinth. Type 'ENTER' to continue.").lower()
+if choice == "enter":
+    choice = input("As you enter the labyrinth, you see a fork in the path. You see blood and entrails on the path leading to the right. Type 'LEFT' or 'RIGHT' to continue.").lower()
+    if choice == "left":
+        choice = input("You walk down the left path and see a door. Type 'OPEN' to continue.").lower()
+        if choice == "open":
             print(MINOTAURUSBATTLE)
-            choice = input("You open the door and see the Minotaurus. Type 'FIGHT' to continue.")
-            if choice == "FIGHT" or choice == "Fight" or choice == "fight":
-                choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.") # TODO: use dictionary for better readability.
-                if choice == "SPEAR" or choice == "Spear" or choice == "spear":
+            choice = input("You open the door and see the Minotaurus. Type 'FIGHT' to continue.").lower()
+            if choice == "fight":
+                choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.").lower() # TODO: use dictionary for better readability.
+                if choice == "spear":
                     print(VICTORY)
                     input("You have chosen the spear.  The Minotaurus charges you as you brace the spear in the ground.  The Minotaurus impales itself on the spear and dies.  CONGRATUALATIONS! You have won the game. Press ENTER to exit")
-                elif choice == "SWORD" or choice == "Sword" or choice == "sword":
+                elif choice == "sword":
                     print(GAME_OVER)
                     print("You have chosen the sword.  The Minotaurus charges you as you swing the sword.  The Minotaurus is too fast and impales you with his horns. You died.")
-                elif choice == "AXE" or choice == "Axe" or choice == "axe":
+                elif choice == "axe":
                     print(GAME_OVER)
                     print("You have chosen the axe.  The Minotaurus charges you as you swing the axe.  The Minotaurus is too fast and impales you with his horns. You died.")
                 else:
