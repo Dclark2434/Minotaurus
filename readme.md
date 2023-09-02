@@ -15,7 +15,7 @@ Run main.py to start the game.
 Follow the on-screen prompts and make your choices.  
 
 ### Learning Outcomes
-Working on this project, I've:
+Working on this project, I've:  
 -Gained a better understanding of conditional statements in Python.  
 -Experimented with organizing and structuring a basic game flow.  
 -Practiced importing and using modules.  
