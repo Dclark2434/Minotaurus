@@ -1,7 +1,6 @@
 # MINOTAURUS: THE LABYRINTH AWAKENS
 ### FROM THE MIND OF DUSTIN CLARK, A NEW ADVENTURE AWAITS!
 <pre>
-'''
        -""\
     .-"  .`)     (
    j   .'_+     :[                )      .^--..
@@ -29,7 +28,6 @@ i  `: ( ____  ,-::::::' ::j  [:```          [8:   )
   | '_ ` _ \| | '_ \ / _ \| __/ _` | | | | '__| | | / __|
   | | | | | | | | | | (_) | || (_| | |_| | |  | |_| \__ \
   |_| |_| |_|_|_| |_|\___/ \__\__,_|\__,_|_|   \__,_|___/
-'''
 </pre>
     “In the realm of the ancient, amidst shadows and dread, rises the Minotaurus. The Labyrinth awaits, adventurer. Are you ready?”
 
