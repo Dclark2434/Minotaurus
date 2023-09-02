@@ -24,7 +24,7 @@ Working on this project, I've:
 
 ### TO DO  
 As I learn more I am planning to:  
--Handle case-sensitivity better
+-Handle case-sensitivity better  
 -Create functions to handle game over and victory text.  
 -Use a dictionary for the weapon choice instead to provide better readability.  
 
