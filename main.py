@@ -4,10 +4,6 @@ print("Welcome to The Labyrinth.")
 print("Your mission is to find and destroy the Minotaurus.") 
 print("Good luck! You _WILL_ need it.")
 
-#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
-
-#Write your code below this line 👇
-
 choice = input("You are at the entrance of the labyrinth. Type 'ENTER' to continue.")
 if choice == "ENTER" or choice == "Enter" or choice == "enter":
     choice = input("As you enter the labyrinth, you see a fork in the path. You see blood and entrails on the path leading to the right. Type 'LEFT' or 'RIGHT' to continue.")
