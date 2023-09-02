@@ -8,7 +8,7 @@ This game isn't about flashy graphics or intricate mechanics. Instead, it's abou
 ### What to Expect
 Simple Gameplay: Make choices by typing in your response. Your decisions will dictate the path you take and the outcome of your journey.  
 Multiple Endings: Based on your choices, you'll encounter various endings. Can you find them all?  
-Satirical: There's a press.md in the repository that's written in a very over-the-top style. I enjoyed writing it and was inspired by the early works of John Romero.
+Satirical: There's a press.md in the repository that's written in a very over-the-top style. It probably took me longer to write than the program itself. I enjoyed writing it though and was inspired by the early works of John Romero.
 
 ### How to Play
 Clone the repository or download the game files.  
