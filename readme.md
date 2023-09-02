@@ -22,6 +22,12 @@ Working on this project, I've:
 -Practiced importing and using modules.  
 -Had a blast exploring the possibilities, even within such a simple framework.  
 
+### TO DO
+As I learn more I am planning to:
+-Better handling of case-sensitivity
+-Create functions to handle game over and victory text.
+-Use a dictionary for the weapon choice instead to provide better readability.
+
 ### Feedback and Contribution
 I welcome any feedback, suggestions, or contributions. As this is a beginner project, there's always room for improvement or expansion. Feel free to open an issue or pull request if you spot something or have ideas!
 
