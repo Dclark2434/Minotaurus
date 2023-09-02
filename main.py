@@ -11,7 +11,7 @@ if choice == "ENTER" or choice == "Enter" or choice == "enter":
         choice = input("You walk down the left path and see a door. Type 'OPEN' to continue.")
         if choice == "OPEN" or choice == "Open" or choice == "open":
             print(MINOTAURUSBATTLE)
-            choice = input("You open the door and see a Minotaurus. Type 'FIGHT' to continue.")
+            choice = input("You open the door and see the Minotaurus. Type 'FIGHT' to continue.")
             if choice == "FIGHT" or choice == "Fight" or choice == "fight":
                 choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.")
                 if choice == "SPEAR" or choice == "Spear" or choice == "spear":
@@ -33,7 +33,7 @@ if choice == "ENTER" or choice == "Enter" or choice == "enter":
             print("Your inaction is costly. The Minotaurus bursts through the door and has killed you.")
     else:
         print(GAME_OVER)
-        print("You have chosen the wrong path and hear galloping behind you. You been killed by the Minotaurus.")
+        print("You have chosen the wrong path and hear galloping behind you. You have been killed by the Minotaurus.")
 else:
     print(GAME_OVER)
     print("The Minotaurus charges out of the entrance and has killed you.")
