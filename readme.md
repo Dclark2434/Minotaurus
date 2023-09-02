@@ -10,18 +10,16 @@ Multiple Endings: Based on your choices, you'll encounter various endings. Can y
 Satirical: There's a press.md in the repository that's written in a very over-the-top style. I enjoyed writing it and was inspired by the early works of John Romero.
 
 ### How to Play
-Clone the repository or download the game files.
-Run main.py to start the game.
-Follow the on-screen prompts and make your choices.
-
+Clone the repository or download the game files.  
+Run main.py to start the game.  
+Follow the on-screen prompts and make your choices.  
 
 ### Learning Outcomes
 Working on this project, I've:
-
--Gained a better understanding of conditional statements in Python.
--Experimented with organizing and structuring a basic game flow.
--Practiced importing and using modules.
--Had a blast exploring the possibilities, even within such a simple framework.
+-Gained a better understanding of conditional statements in Python.  
+-Experimented with organizing and structuring a basic game flow.  
+-Practiced importing and using modules.  
+-Had a blast exploring the possibilities, even within such a simple framework.  
 
 ### Feedback and Contribution
 I welcome any feedback, suggestions, or contributions. As this is a beginner project, there's always room for improvement or expansion. Feel free to open an issue or pull request if you spot something or have ideas!
