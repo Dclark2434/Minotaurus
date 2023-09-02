@@ -1,9 +1,13 @@
+# TODO: let's make this game a little more interesting.  Add more choices and more paths to the game.
+# TODO: Functions.  I'm planning on making this code more modular.  Create functions for each path or maybe just the game over and victory screens and call them from the main function.
+
 from art import MINOTAURUS, GAME_OVER, MINOTAURUSBATTLE, VICTORY
 print(MINOTAURUS)
 print("Welcome to The Labyrinth.")
 print("Your mission is to find and destroy the Minotaurus.") 
 print("Good luck! You _WILL_ need it.")
 
+# TODO: fix the input so that it is case insensitive. I think I can use the .lower() function to do this.
 choice = input("You are at the entrance of the labyrinth. Type 'ENTER' to continue.")
 if choice == "ENTER" or choice == "Enter" or choice == "enter":
     choice = input("As you enter the labyrinth, you see a fork in the path. You see blood and entrails on the path leading to the right. Type 'LEFT' or 'RIGHT' to continue.")
@@ -13,7 +17,7 @@ if choice == "ENTER" or choice == "Enter" or choice == "enter":
             print(MINOTAURUSBATTLE)
             choice = input("You open the door and see the Minotaurus. Type 'FIGHT' to continue.")
             if choice == "FIGHT" or choice == "Fight" or choice == "fight":
-                choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.")
+                choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.") # TODO: use dictionary for better readability.
                 if choice == "SPEAR" or choice == "Spear" or choice == "spear":
                     print(VICTORY)
                     input("You have chosen the spear.  The Minotaurus charges you as you brace the spear in the ground.  The Minotaurus impales itself on the spear and dies.  CONGRATUALATIONS! You have won the game. Press ENTER to exit")
