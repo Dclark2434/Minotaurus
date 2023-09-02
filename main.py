@@ -1,4 +1,4 @@
-from art import MINOTAURUS, GAME_OVER, MINOTAURUSBATTLE
+from art import MINOTAURUS, GAME_OVER, MINOTAURUSBATTLE, VICTORY
 print(MINOTAURUS)
 print("Welcome to The Labyrinth.")
 print("Your mission is to find and destroy the Minotaurus.") 
@@ -15,7 +15,8 @@ if choice == "ENTER" or choice == "Enter" or choice == "enter":
             if choice == "FIGHT" or choice == "Fight" or choice == "fight":
                 choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.")
                 if choice == "SPEAR" or choice == "Spear" or choice == "spear":
-                    input("You have chosen the spear.  The Minotaurus charges you as you brace the spear in the ground.  The Minotaurus impales itself on the spear and dies.  You have won the game. Type 'END' to continue.")
+                    print(VICTORY)
+                    input("You have chosen the spear.  The Minotaurus charges you as you brace the spear in the ground.  The Minotaurus impales itself on the spear and dies.  CONGRATUALATIONS! You have won the game. Press ENTER to exit")
                 elif choice == "SWORD" or choice == "Sword" or choice == "sword":
                     print(GAME_OVER)
                     print("You have chosen the sword.  The Minotaurus charges you as you swing the sword.  The Minotaurus is too fast and impales you with his horns. You died.")
