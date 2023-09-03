@@ -7,17 +7,16 @@ print("Welcome to The Labyrinth.")
 print("Your mission is to find and destroy the Minotaurus.") 
 print("Good luck! You _WILL_ need it.")
 
-# TODO: fix the input so that it is case insensitive. I think I can use the .lower() function to do this.
-choice = input("You are at the entrance of the labyrinth. Type 'ENTER' to continue.").lower()
+choice = input("You are at the entrance of the labyrinth. Type 'ENTER' to continue.\n").lower()
 if choice == "enter":
-    choice = input("As you enter the labyrinth, you see a fork in the path. You see blood and entrails on the path leading to the right. Type 'LEFT' or 'RIGHT' to continue.").lower()
+    choice = input("As you enter the labyrinth, you see a fork in the path. You see blood and entrails on the path leading to the right. Type 'LEFT' or 'RIGHT' to continue.\n").lower()
     if choice == "left":
-        choice = input("You walk down the left path and see a door. Type 'OPEN' to continue.").lower()
+        choice = input("You walk down the left path and see a door. Type 'OPEN' to continue.\n").lower()
         if choice == "open":
             print(MINOTAURUSBATTLE)
-            choice = input("You open the door and see the Minotaurus. Type 'FIGHT' to continue.").lower()
+            choice = input("You open the door and see the Minotaurus. Type 'FIGHT' to continue.\n").lower()
             if choice == "fight":
-                choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.").lower() # TODO: use dictionary for better readability.
+                choice = input("Which weapon do you choose? Type 'SWORD', 'AXE', 'SPEAR' to continue.\n").lower() # TODO: use dictionary for better readability.
                 if choice == "spear":
                     print(VICTORY)
                     input("You have chosen the spear.  The Minotaurus charges you as you brace the spear in the ground.  The Minotaurus impales itself on the spear and dies.  CONGRATUALATIONS! You have won the game. Press ENTER to exit")
