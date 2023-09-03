@@ -1,4 +1,4 @@
-from art import MINOTAURUS, GAME_OVER, MINOTAURUSBATTLE, VICTORY, GAME_OVER2
+from art import MINOTAURUS, GAME_OVER, MINOTAURUSBATTLE, VICTORY, GAME_OVER2, DOOR
 
 def game_over(message):
     print(GAME_OVER)
@@ -34,6 +34,7 @@ def labyrinth_entrails():
         game_over("The chilling resonance of hooves marks the prelude to darkness. The Minotaurus relishes in claiming yet another wandering soul.")
 
 def ancient_door():
+    print(DOOR)
     choice = input("An ancient door, its wood warped by screams of yesteryears, stands defiant.\nCan you muster the courage? Whisper 'OPEN' to face the shadows within.\n").lower()
     if choice == "open":
         print(MINOTAURUSBATTLE)
