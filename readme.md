@@ -17,7 +17,7 @@ Follow the on-screen prompts and make your choices.
 
 ### Learning Outcomes
 Working on this project, I've:  
--Gained a better understanding of conditional statements in Python.  
+-Gained a better understanding of conditional statements and functions in Python.  
 -Experimented with organizing and structuring a basic game flow.  
 -Practiced importing and using modules.  
 -Had a blast exploring the possibilities, even within such a simple framework.  
