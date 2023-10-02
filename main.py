@@ -1,11 +1,7 @@
 from art import MINOTAURUS, GAME_OVER, MINOTAURUSBATTLE, VICTORY, GAME_OVER2, DOOR
 
-def game_over(message):
-    print(GAME_OVER)
-    print(message)
-
-def game_over2(message):
-    print(GAME_OVER2)
+def game_over(message, art):
+    print(art)
     print(message)
 
 def victory(message):
@@ -29,7 +25,7 @@ def labyrinth_entrails():
     if choice == "left":
         ancient_door()
     elif choice == "straight":
-        game_over2("In your descent into the void, the vast expanse of emptiness envelopes you.\nThe Minotaurus might elude sight, yet the labyrinth itself ensnares your soul, binding you in an unyielding, eternal captivity.")
+        game_over("In your descent into the void, the vast expanse of emptiness envelopes you.\nThe Minotaurus might elude sight, yet the labyrinth itself ensnares your soul, binding you in an unyielding, eternal captivity.", GAME_OVER2)
     else:
         game_over("The chilling resonance of hooves marks the prelude to darkness. The Minotaurus relishes in claiming yet another wandering soul.")
 
