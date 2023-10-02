@@ -48,7 +48,7 @@ def weapon_choice():
         game_over(story_bits.ENDING[7], GAME_OVER)
     elif choice == "bow":
         game_over(story_bits.ENDING[8], GAME_OVER)
-    elif choice == "fist":
+    elif choice == "fists":
         victory(story_bits.ENDING[9])
     elif choice == "chainsaw":
         victory(story_bits.ENDING[10])
