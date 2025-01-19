@@ -20,12 +20,4 @@ Working on this project, I've:
 -Gained a better understanding of conditional statements and functions in Python.  
 -Experimented with organizing and structuring a basic game flow.  
 -Practiced importing and using modules.  
--Had a blast exploring the possibilities, even within such a simple framework.  
-
-### Feedback and Contribution
-I welcome any feedback, suggestions, or contributions. As this is a beginner project, there's always room for improvement or expansion. Feel free to open an issue or pull request if you spot something or have ideas!
-
-### Final Words
-I appreciate you checking out MINOTAURUS. This project was as much about the learning experience as it was about creating something fun. I hope you enjoy it, and perhaps even find some inspiration for your projects.
-
-Happy adventuring!
+-Had a blast exploring the possibilities, even within such a simple framework.
